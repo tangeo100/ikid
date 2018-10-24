@@ -17,6 +17,12 @@
 		5B7C396C217EB77100078E4F /* PunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C396B217EB77100078E4F /* PunnyViewController.swift */; };
 		5B7C396E217EB78E00078E4F /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C396D217EB78E00078E4F /* DadViewController.swift */; };
 		5B7C3970217EB7A900078E4F /* KnockKnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C396F217EB7A900078E4F /* KnockKnockViewController.swift */; };
+		5BC6BB66217FDFD80045A79E /* GoodResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB65217FDFD80045A79E /* GoodResolveViewController.swift */; };
+		5BC6BB68217FE01E0045A79E /* PunnyResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB67217FE01E0045A79E /* PunnyResolveViewController.swift */; };
+		5BC6BB6A217FE0310045A79E /* DadResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB69217FE0310045A79E /* DadResolveViewController.swift */; };
+		5BC6BB6C217FEE4E0045A79E /* GoodJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB6B217FEE4E0045A79E /* GoodJokeView.swift */; };
+		5BC6BB6E217FF5CC0045A79E /* DadJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB6D217FF5CC0045A79E /* DadJokeView.swift */; };
+		5BC6BB70217FF5E20045A79E /* PunnyJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB6F217FF5E20045A79E /* PunnyJokeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		5B7C396B217EB77100078E4F /* PunnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunnyViewController.swift; sourceTree = "<group>"; };
 		5B7C396D217EB78E00078E4F /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
 		5B7C396F217EB7A900078E4F /* KnockKnockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockKnockViewController.swift; sourceTree = "<group>"; };
+		5BC6BB65217FDFD80045A79E /* GoodResolveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodResolveViewController.swift; sourceTree = "<group>"; };
+		5BC6BB67217FE01E0045A79E /* PunnyResolveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunnyResolveViewController.swift; sourceTree = "<group>"; };
+		5BC6BB69217FE0310045A79E /* DadResolveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadResolveViewController.swift; sourceTree = "<group>"; };
+		5BC6BB6B217FEE4E0045A79E /* GoodJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodJokeView.swift; sourceTree = "<group>"; };
+		5BC6BB6D217FF5CC0045A79E /* DadJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeView.swift; sourceTree = "<group>"; };
+		5BC6BB6F217FF5E20045A79E /* PunnyJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunnyJokeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +115,18 @@
 		5B7C3934217E92E700078E4F /* iKid */ = {
 			isa = PBXGroup;
 			children = (
+				5B7C3935217E92E700078E4F /* AppDelegate.swift */,
 				5B7C396F217EB7A900078E4F /* KnockKnockViewController.swift */,
 				5B7C396D217EB78E00078E4F /* DadViewController.swift */,
 				5B7C3969217EB76200078E4F /* GoodViewController.swift */,
 				5B7C396B217EB77100078E4F /* PunnyViewController.swift */,
-				5B7C3935217E92E700078E4F /* AppDelegate.swift */,
 				5B7C3939217E92E700078E4F /* Main.storyboard */,
+				5BC6BB6D217FF5CC0045A79E /* DadJokeView.swift */,
+				5BC6BB6F217FF5E20045A79E /* PunnyJokeView.swift */,
+				5BC6BB6B217FEE4E0045A79E /* GoodJokeView.swift */,
+				5BC6BB65217FDFD80045A79E /* GoodResolveViewController.swift */,
+				5BC6BB67217FE01E0045A79E /* PunnyResolveViewController.swift */,
+				5BC6BB69217FE0310045A79E /* DadResolveViewController.swift */,
 				5B7C393C217E92E700078E4F /* Assets.xcassets */,
 				5B7C393E217E92E700078E4F /* LaunchScreen.storyboard */,
 				5B7C3941217E92E700078E4F /* Info.plist */,
@@ -266,7 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7C396C217EB77100078E4F /* PunnyViewController.swift in Sources */,
+				5BC6BB70217FF5E20045A79E /* PunnyJokeView.swift in Sources */,
+				5BC6BB6E217FF5CC0045A79E /* DadJokeView.swift in Sources */,
+				5BC6BB6A217FE0310045A79E /* DadResolveViewController.swift in Sources */,
 				5B7C3936217E92E700078E4F /* AppDelegate.swift in Sources */,
+				5BC6BB6C217FEE4E0045A79E /* GoodJokeView.swift in Sources */,
+				5BC6BB66217FDFD80045A79E /* GoodResolveViewController.swift in Sources */,
+				5BC6BB68217FE01E0045A79E /* PunnyResolveViewController.swift in Sources */,
 				5B7C396E217EB78E00078E4F /* DadViewController.swift in Sources */,
 				5B7C3970217EB7A900078E4F /* KnockKnockViewController.swift in Sources */,
 				5B7C396A217EB76200078E4F /* GoodViewController.swift in Sources */,
