@@ -23,6 +23,8 @@
 		5BC6BB6C217FEE4E0045A79E /* GoodJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB6B217FEE4E0045A79E /* GoodJokeView.swift */; };
 		5BC6BB6E217FF5CC0045A79E /* DadJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB6D217FF5CC0045A79E /* DadJokeView.swift */; };
 		5BC6BB70217FF5E20045A79E /* PunnyJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB6F217FF5E20045A79E /* PunnyJokeView.swift */; };
+		5BC6BB72218002A80045A79E /* jojoyoumeme.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6BB71218002A80045A79E /* jojoyoumeme.gif */; };
+		5BC6BB74218003AF0045A79E /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6BB73218003AF0045A79E /* iOSDevCenters+GIF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		5BC6BB6B217FEE4E0045A79E /* GoodJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodJokeView.swift; sourceTree = "<group>"; };
 		5BC6BB6D217FF5CC0045A79E /* DadJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeView.swift; sourceTree = "<group>"; };
 		5BC6BB6F217FF5E20045A79E /* PunnyJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunnyJokeView.swift; sourceTree = "<group>"; };
+		5BC6BB71218002A80045A79E /* jojoyoumeme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jojoyoumeme.gif; sourceTree = "<group>"; };
+		5BC6BB73218003AF0045A79E /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				5BC6BB65217FDFD80045A79E /* GoodResolveViewController.swift */,
 				5BC6BB67217FE01E0045A79E /* PunnyResolveViewController.swift */,
 				5BC6BB69217FE0310045A79E /* DadResolveViewController.swift */,
+				5BC6BB73218003AF0045A79E /* iOSDevCenters+GIF.swift */,
+				5BC6BB71218002A80045A79E /* jojoyoumeme.gif */,
 				5B7C393C217E92E700078E4F /* Assets.xcassets */,
 				5B7C393E217E92E700078E4F /* LaunchScreen.storyboard */,
 				5B7C3941217E92E700078E4F /* Info.plist */,
@@ -258,6 +264,7 @@
 			files = (
 				5B7C3940217E92E700078E4F /* LaunchScreen.storyboard in Resources */,
 				5B7C393D217E92E700078E4F /* Assets.xcassets in Resources */,
+				5BC6BB72218002A80045A79E /* jojoyoumeme.gif in Resources */,
 				5B7C393B217E92E700078E4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7C396C217EB77100078E4F /* PunnyViewController.swift in Sources */,
+				5BC6BB74218003AF0045A79E /* iOSDevCenters+GIF.swift in Sources */,
 				5BC6BB70217FF5E20045A79E /* PunnyJokeView.swift in Sources */,
 				5BC6BB6E217FF5CC0045A79E /* DadJokeView.swift in Sources */,
 				5BC6BB6A217FE0310045A79E /* DadResolveViewController.swift in Sources */,

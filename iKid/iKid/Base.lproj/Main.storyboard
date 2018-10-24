@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F20-yy-HSA">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController title="Punny" id="fte-8x-yn1" userLabel="Punny" customClass="PunnyViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7NG-wD-3NE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Awi-zs-Hjl">
-                                <rect key="frame" x="272" y="489" width="32" height="30"/>
+                                <rect key="frame" x="272" y="401" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="switchViews:" destination="fte-8x-yn1" eventType="touchUpInside" id="Dse-yK-fzg"/>
@@ -43,11 +43,11 @@
             <objects>
                 <viewController storyboardIdentifier="PunnyJoke" id="1sr-V5-95A" customClass="PunnyJokeView" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fYz-O1-Jfx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Punny Joke" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkV-4t-PTD">
-                                <rect key="frame" x="115.5" y="273.5" width="89" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have you seen &quot;s&quot;?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkV-4t-PTD">
+                                <rect key="frame" x="86" y="229.5" width="148" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -72,11 +72,11 @@
             <objects>
                 <viewController storyboardIdentifier="PunnyResolve" title="PunnyResolve" id="huw-vJ-U6H" customClass="PunnyResolveViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kkb-9I-lAd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Punny Resolve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deN-RP-9HZ">
-                                <rect key="frame" x="104" y="273.5" width="112" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deN-RP-9HZ">
+                                <rect key="frame" x="146.5" y="229.5" width="27" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -99,14 +99,14 @@
             <objects>
                 <viewController title="Dad" id="omf-Dm-3Zb" userLabel="Dad" customClass="DadViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5kc-ma-kpN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cro-rU-Blu">
-                                <rect key="frame" x="272" y="489" width="32" height="30"/>
+                                <rect key="frame" x="272" y="401" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <action selector="switchViews:" destination="omf-Dm-3Zb" eventType="touchUpInside" id="bWS-gT-pVV"/>
+                                    <action selector="switchViews:" destination="omf-Dm-3Zb" eventType="touchUpInside" id="wRw-bE-4gN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -128,11 +128,14 @@
             <objects>
                 <viewController storyboardIdentifier="DadJoke" id="s2o-WH-I4i" customClass="DadJokeView" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2vT-MG-pHp">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dad Joke" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iH0-EX-aL3">
-                                <rect key="frame" x="124" y="273.5" width="72" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ao4-9n-Pr1">
+                                <rect key="frame" x="66" y="209.5" width="188" height="61"/>
+                                <string key="text">What has 4 letters, 
+sometimes has 9 letters,
+but never has 5 letters.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -140,28 +143,40 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iH0-EX-aL3" firstAttribute="centerY" secondItem="2vT-MG-pHp" secondAttribute="centerY" id="Bel-Kd-GPK"/>
-                            <constraint firstItem="iH0-EX-aL3" firstAttribute="centerX" secondItem="2vT-MG-pHp" secondAttribute="centerX" id="coC-Sf-FYb"/>
-                            <constraint firstItem="iH0-EX-aL3" firstAttribute="centerY" secondItem="2vT-MG-pHp" secondAttribute="centerY" id="dGF-AX-FAo"/>
-                            <constraint firstItem="iH0-EX-aL3" firstAttribute="centerX" secondItem="2vT-MG-pHp" secondAttribute="centerX" id="wa2-II-He1"/>
+                            <constraint firstItem="Ao4-9n-Pr1" firstAttribute="centerY" secondItem="2vT-MG-pHp" secondAttribute="centerY" id="KOk-sx-syM"/>
+                            <constraint firstItem="Ao4-9n-Pr1" firstAttribute="centerX" secondItem="2vT-MG-pHp" secondAttribute="centerX" id="oTa-lU-q8e"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ljt-Uw-HFf"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bYI-w2-cVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="574" y="296"/>
+            <point key="canvasLocation" x="573.75" y="295"/>
         </scene>
         <!--DadResolve-->
         <scene sceneID="phc-97-hDA">
             <objects>
                 <viewController storyboardIdentifier="DadResolve" title="DadResolve" id="uKL-bF-mem" customClass="DadResolveViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yz0-jT-fkl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dad Resolve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3a8-Z2-h9H">
-                                <rect key="frame" x="112" y="273.5" width="96" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkW-kW-6OO">
+                                <rect key="frame" x="139" y="222" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jojoyoumeme.gif" translatesAutoresizingMaskIntoConstraints="NO" id="PUH-aY-pIf">
+                                <rect key="frame" x="16" y="163.5" width="288" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="57G-Em-Rse"/>
+                                    <constraint firstAttribute="width" constant="288" id="Wln-o1-8OM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read that again" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXB-vG-RVw">
+                                <rect key="frame" x="100" y="338" width="120" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -169,26 +184,28 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="3a8-Z2-h9H" firstAttribute="centerX" secondItem="Yz0-jT-fkl" secondAttribute="centerX" id="6DE-xY-ub8"/>
-                            <constraint firstItem="3a8-Z2-h9H" firstAttribute="centerY" secondItem="Yz0-jT-fkl" secondAttribute="centerY" id="RdG-4R-Cje"/>
+                            <constraint firstItem="bXB-vG-RVw" firstAttribute="centerX" secondItem="Yz0-jT-fkl" secondAttribute="centerX" id="Gyn-Tw-baE"/>
+                            <constraint firstItem="bXB-vG-RVw" firstAttribute="top" secondItem="PUH-aY-pIf" secondAttribute="bottom" constant="21.5" id="Y3k-h4-ZDD"/>
+                            <constraint firstItem="PUH-aY-pIf" firstAttribute="centerX" secondItem="Yz0-jT-fkl" secondAttribute="centerX" id="Zhz-Hx-dBv"/>
+                            <constraint firstItem="PUH-aY-pIf" firstAttribute="centerY" secondItem="Yz0-jT-fkl" secondAttribute="centerY" id="m1B-gi-pj9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zmz-do-YWw"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QiO-Ev-9Gh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1418" y="296"/>
+            <point key="canvasLocation" x="1417.5" y="295"/>
         </scene>
         <!--Good-->
         <scene sceneID="ywa-uP-mcb">
             <objects>
                 <viewController title="Good" id="f7J-SN-7pM" userLabel="Good" customClass="GoodViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oV7-XW-CiN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jm-s3-xRQ">
-                                <rect key="frame" x="272" y="489" width="32" height="30"/>
+                                <rect key="frame" x="272" y="401" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="switchViews:" destination="f7J-SN-7pM" eventType="touchUpInside" id="eIX-4c-4hs"/>
@@ -213,11 +230,11 @@
             <objects>
                 <viewController storyboardIdentifier="GoodResolve" title="GoodResolve" id="8Wu-6F-egd" customClass="GoodResolveViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S1l-6P-evO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Resolve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fy-86-4MD">
-                                <rect key="frame" x="107" y="273.5" width="106" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mid-life crisis." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fy-86-4MD">
+                                <rect key="frame" x="106" y="229.5" width="108" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -240,11 +257,11 @@
             <objects>
                 <viewController storyboardIdentifier="GoodJoke" title="GoodJoke" id="h77-fO-4Oe" customClass="GoodJokeView" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JMs-Vh-Mjw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Joke" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfb-sw-EcK">
-                                <rect key="frame" x="118.5" y="273.5" width="83" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why did the anti-vaxxer's 4 year old cry?  W " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfb-sw-EcK">
+                                <rect key="frame" x="4.5" y="229.5" width="311" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -282,4 +299,7 @@
             <point key="canvasLocation" x="-1269" y="-565"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="jojoyoumeme.gif" width="640" height="360"/>
+    </resources>
 </document>
